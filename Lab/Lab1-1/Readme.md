@@ -13,20 +13,20 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: Comparing adjacent pairs of objects in the array.
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: Nothing. bbbbb
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: 27 times.
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: Beacuse every number are sorted and go out from the while loop.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: Faster becuase BigO will change from O(n^2) to O(n).
