@@ -6,7 +6,7 @@
 # Questions
 * Why we need "if-else" in function process?
 
-Answer:
+Answer: if we calculate by algorithm factorial 1,0 will give wrong value so we have use if-else.
 
 
 # Resources
