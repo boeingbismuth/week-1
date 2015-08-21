@@ -29,4 +29,4 @@ Answer: Beacuse every number are sorted and go out from the while loop.
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer: Faster becuase BigO will change from O(n^2) to O(n).
+Answer: Faster becuase BigO will change from O(n^2) to O(n). bab415d(commit number)
