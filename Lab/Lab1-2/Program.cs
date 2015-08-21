@@ -17,16 +17,26 @@ namespace Lab1_2
 		}
 
 		public static void input()
-		{
-			// input
-			int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-
-			process (input);
+		{ 
+			string a;
+			Console.WriteLine ("INPUT NUMBER: ");
+			a = Console.ReadLine ();
+			process (a);
 		}
 
             // process
-		public static void process(int[] input)
+		public static void process(string input1)
 		{
+			int[] xinput = new int[Convert.ToInt32 (input1)];
+
+			for(int i=0 ; i <= Convert.ToInt32 (input1) ; i++)
+			{
+				xinput [i] = Convert.ToInt32 (Console.ReadLine ());
+			}
+
+			int[] input = xinput;
+
+
 			bool flag = true;
             while (flag)
             {
