@@ -17,7 +17,7 @@ Answer: Comparing adjacent pairs of objects in the array.
 
 2. What if two numbers equal, what will happen? 
 
-Answer: Nothing. bbbbb
+Answer: Nothing.
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
